@@ -58,16 +58,16 @@ const Navbar = () => {
     
 
 
-      <Box border='1px solid red' alignItems='center' >
-      <Box   bg='white' border='2px solid black'   >
+      <Box alignItems='center' boxShadow='xl'  pb='3'>
+      <Box   bg='white' >
         <Flex mt="2" mb='2' gap='40'ml='100px'>
 
-<Box border='1px solid green'>
+<Box>
   
-<Image  h='30px' src="https://niftypm.com/_nuxt/img/nifty-logo.eab2f7a.svg" alt="" />
+<Image mt='2'  h='30px' src="https://niftypm.com/_nuxt/img/nifty-logo.eab2f7a.svg" alt="" />
 </Box>
 
-<Box display='flex'  border='1px solid blue' gap='50' >
+<Box display='flex'   gap='50' >
 <Popover  >
 
   <PopoverTrigger>
