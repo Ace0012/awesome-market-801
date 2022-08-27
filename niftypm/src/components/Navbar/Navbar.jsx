@@ -53,19 +53,21 @@ const Navbar = () => {
 
   return (
 
+<Flex as='header' w='100%' boxShadow='xl'>
 
-    <div >
+    
     
 
 
-      <Box alignItems='center' boxShadow='xl'  pb='3'>
+      <Box  >
+
       <Box   bg='white' >
         <Flex mt="2" mb='2' gap='40'ml='100px'>
 
-<Box>
+<>
   
 <Image mt='2'  h='30px' src="https://niftypm.com/_nuxt/img/nifty-logo.eab2f7a.svg" alt="" />
-</Box>
+</>
 
 <Box display='flex'   gap='50' >
 <Popover  >
@@ -114,7 +116,7 @@ const Navbar = () => {
     _hover={{color:"#00baab"}}
     // fontWeight='bold'
     fontSize='16px'
-
+    
     >Use Cases  <ChevronDownIcon mt='1' fontWeight='bold' /></Button>
     
   </PopoverTrigger>
@@ -209,9 +211,9 @@ const Navbar = () => {
           <ModalHeader justifyContent>
             <Image mb='2rem' ml='13rem' src='https://niftypm.com/_nuxt/img/nifty-logo.eab2f7a.svg'
 
-            h='30px'
+h='30px'
 
-            />
+/>
           </ModalHeader>
           {/* <ModalCloseButton /> */}
           <ModalBody >
@@ -229,8 +231,8 @@ const Navbar = () => {
 
 {/* 
           <ModalFooter>
-            // <Button colorScheme='blue' mr={3} onClick={onClose}>
-              Close
+          // <Button colorScheme='blue' mr={3} onClick={onClose}>
+          Close
             </Button>
             <Button variant='ghost'>Secondary Action</Button>
           </ModalFooter> */}
@@ -254,6 +256,7 @@ const Navbar = () => {
       </Box>
       </Box>
 
+          </Flex>
    
 
     
@@ -261,7 +264,7 @@ const Navbar = () => {
   
 
 
-    </div>
+   
   )
 }
 
